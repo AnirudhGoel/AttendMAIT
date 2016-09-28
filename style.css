@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-
+html{
+  margin: 0;
+  height: auto;
+  width: auto;
+}
 
 input:focus,
 textarea:focus,
@@ -14,24 +18,25 @@ a {
 
 body {
 background-color: #eee;
-    margin: 0px;
-      width: auto;
-  background-color: #eee;
-   
+margin: 0px;
+width: auto;
+background-color: #eee;
+
 }
 
 .container{
-    white-space: nowrap;
-    overflow-x: auto;
+  margin: 0;
+  white-space:nowrap;
+  overflow-x: auto;
 }
 
 .agenda {
   display: inline-block;
   width: auto;
   height: 500px !important;
-  margin: auto;
   margin-top: 80px;
   margin-bottom: 80px;
+  vertical-align: top;
 }
 
 .agenda i {
@@ -46,7 +51,7 @@ background-color: #eee;
     font-size: 20px;
     line-height: 1.5;
     margin: auto;
-    width: 512px;
+    width: 480px;
     padding-top: 8px;
 }
 
@@ -54,10 +59,10 @@ background-color: #eee;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 30px;
-   
+
 	  text-transform: uppercase;
     text-align: center;
-    width: 512px;
+    width: 480px;
     color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -86,7 +91,7 @@ background-color: #eee;
     font-weight: 300;
     font-size: 20px;
     color: #fff;
-    width: 100%;
+    width: auto;
 }
 
 .header-fixed a{
@@ -117,44 +122,48 @@ background-color: #eee;
     margin: auto;
 }
 
+.cardgray {
+  visibility: hidden;
+    height: 45px;
+    background-color: #dedede;
+    margin: 6px;
+    width: 480px;
+    padding: 14px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
 .card {
+    height: 45px;
     background-color: #fff;
-   
-   
-    margin: 4px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 512px;
-    padding: 20px;
-    border-radius: 8px;
+    margin: 6px;
+    width: 480px;
+    padding: 14px;
+    border-radius: 6px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
 }
 
 .card2 {
+    height: 32px;
     background-color: #fff;
-   
-    margin: 4px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 512px;
-    padding: 20px;
+    margin: 6px;
+    width: 480px;
+    padding: 14px;
     padding-top: 60px;
     padding-bottom: 60px;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
 }
 
 .card3 {
+    height: 71px;
     background-color: #fff;
-  
-    margin: 4px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 512px;
-    padding: 20px;
+    margin: 6px;
+    width: 480px;
+    padding: 14px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
 }
 
@@ -169,7 +178,7 @@ background-size: contain;
 	text-transform: uppercase;
   padding-left: 24px;
     margin: auto;
-    width: 512px;
+    width: 480px;
     color: #333;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -186,7 +195,7 @@ background-size: contain;
 .classname {
     margin: auto;
     padding-top: 2px;
-    width: 512px;
+    width: 480px;
     color: #333;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -330,7 +339,7 @@ background-size: contain;
     }
 
     .agendalabel{
-      width: 100vw;
+      width: 80vw;
       padding-left: 0px;
       margin: auto;
     }
@@ -362,16 +371,20 @@ background-size: contain;
         color: #2E5DF8;
     }
 
+    .cardgray{
+      width: 80vw;
+    }
+
     .card{
-      width: 240px;
+      width: 80vw;
     }
 
     .card2{
-      width: 240px;
+      width: 80vw;
     }
 
     .card3{
-      width: 240px;
+      width: 80vw;
     }
 
 }
