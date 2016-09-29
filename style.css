@@ -21,6 +21,8 @@ background-color: #eee;
 margin: 0px;
 width: auto;
 background-color: #eee;
+   
+
 
 }
 
@@ -28,12 +30,13 @@ background-color: #eee;
   margin: 0;
   white-space:nowrap;
   overflow-x: auto;
+
 }
 
 .agenda {
   display: inline-block;
   width: auto;
-  height: 500px !important;
+  height: 100% !important;
   margin-top: 80px;
   margin-bottom: 80px;
   vertical-align: top;
